@@ -7,12 +7,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Elnur N</title>
+    <link rel="icon" type="image/x-icon" href="./assets/photos/favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Elnur Nabivi</title>
   </head>
+
   <body>
     <header>
-      <h1>Elnur N</h1>
+      <h1>Hi, I'm Elnur</h1>
       <img
         src="./assets/photos/Elnurphoto.png"
         alt="Elnur N"
@@ -34,11 +36,12 @@
             <a href="#experience-section" alt="">Work experience</a>
           </li>
           <li>
-            <a href="#contact-section" alt="">Contact me</a>
+            <a href="#contact-section" alt="">Find me</a>
           </li>
         </ul>
       </nav>
     </header>
+
     <main>
       <section id="summary-section">
         <h2>Summary</h2>
@@ -53,21 +56,26 @@
           solutions.
         </p>
       </section>
+
       <section id="keyskills-section">
         <h2>Key skills</h2>
         <ul>
           <li>HTML: <meter min="0" max="5" value="4"></meter></li>
           <li>CSS: <meter min="0" max="5" value="3"></meter></li>
-          <li>JavaScript <meter min="0" max="5" value="2"></meter></li>
-          <li>Git <meter min="0" max="5" value="4"></meter></li>
+          <li>JavaScript: <meter min="0" max="5" value="2"></meter></li>
+          <li>Git: <meter min="0" max="5" value="4"></meter></li>
         </ul>
       </section>
+
       <section id="portfolio-section">
         <h2>Portfolio</h2>
         <ul>
           <li>
-            <h3>Passenger counter</h3>
-            <p>A counter app build with HTML, CSS and JavaScript</p>
+            <h3>Bio</h3>
+            <p>
+              The website emphasizes the essential sections of a resume,
+              developed using HTML and Vanilla CSS.
+            </p>
           </li>
           <li>
             <h3>Basketball scoreboard</h3>
@@ -78,124 +86,108 @@
           </li>
         </ul>
       </section>
+
       <section id="experience-section">
         <h2>Work Experience</h2>
-        <h3>Researcher, University of Warsaw, Poland. Jan 2022 - ongoing</h3>
-        <ul>
-          <li>
-            <p>
-              Conducting research in the field of sustainable marketing and
-              digital marketing
-            </p>
-          </li>
-          <li>
-            <p>
-              Designing and executing qualitative and quantitative studies using
-              experiments, content analysis, and surveys
-            </p>
-          </li>
-          <li>
-            <p>
-              Analyzing data using statistical software such as SPSS, AMOS,
-              SmartPLS, Dedoose, NVivo
-            </p>
-          </li>
-        </ul>
-        <h3>
-          Digital Marketing Specialist, Advised Skills, Poland. Feb 2019-Jan
-          2022
-        </h3>
-        <ul>
-          <li>
-            <p>Coordinating and monitoring digital activities</p>
-          </li>
-          <li>
-            <p>Managing and optimizing Facebook Ads and Google Ads campaigns</p>
-          </li>
-          <li>
-            <p>
-              Creating social media strategy and publishing content on social
-              channels
-            </p>
-          </li>
-          <li>
-            <p>
-              Preparing press releases, weekly cooperative newsletters, and
-              SEO-friendly blog posts
-            </p>
-          </li>
-          <li>
-            <p>
-              Updating websites with new content and indexing links in search
-              engines
-            </p>
-          </li>
-          <li>
-            <p>
-              Contributing to brand building activities by providing reports and
-              analysis on performance across digital channels
-            </p>
-          </li>
-        </ul>
+        <details>
+          <summary class="job-position">
+            <b>Researcher</b> at the University of Warsaw, Poland, for 2years
+          </summary>
+          <ul>
+            <li>
+              <p>
+                Conducting research in the field of sustainable marketing and
+                digital marketing
+              </p>
+            </li>
+            <li>
+              <p>
+                Designing and executing qualitative and quantitative studies
+                using experiments, content analysis, and surveys
+              </p>
+            </li>
+            <li>
+              <p>
+                Analyzing data using statistical software such as SPSS, AMOS,
+                SmartPLS, Dedoose, NVivo
+              </p>
+            </li>
+          </ul>
+        </details>
+        <details>
+          <summary class="job-position">
+            <b>Digital Marketing Specialist</b> at Advised Skills, Poland, for
+            3years
+          </summary>
+          <ul>
+            <li>
+              <p>Coordinating and monitoring digital activities</p>
+            </li>
+            <li>
+              <p>
+                Managing and optimizing Facebook Ads and Google Ads campaigns
+              </p>
+            </li>
+            <li>
+              <p>
+                Creating social media strategy and publishing content on social
+                channels
+              </p>
+            </li>
+            <li>
+              <p>
+                Preparing press releases, weekly cooperative newsletters, and
+                SEO-friendly blog posts
+              </p>
+            </li>
+            <li>
+              <p>
+                Updating websites with new content and indexing links in search
+                engines
+              </p>
+            </li>
+            <li>
+              <p>
+                Contributing to brand building activities by providing reports
+                and analysis on performance across digital channels
+              </p>
+            </li>
+          </ul>
+        </details>
       </section>
-      <section>
-        <section id="contact-section">
-          <h2>Contact me</h2>
-          <form action="">
-            <fieldset>
-              <br />
-              <label for="name">Your name:</label><br />
-              <input id="name" name="name" type="text" />
-              <br />
-              <label for="email">Your email:</label><br />
-              <input id="email" name="email" type="email" />
-              <br />
-              <label for="education">Choose your education level:</label><br />
-              <select name="education" id="education">
-                <option value="High school">High school</option>
-                <option value="bachelor">Bachelor's or equivalent level</option>
-                <option value="master">Master's or equivalent level</option>
-                <option value="phd">Doctoral or equivalent level</option>
-              </select>
-              <br />
-              <label for="date">Date of birth:</label><br />
-              <input id="date" name="date" type="date" />
-              <br />
-              <label for="message">Your message:</label><br />
-              <textarea
-                name="message"
-                id="message"
-                cols="30"
-                rows="4"
-              ></textarea
-              ><br />
-              <button type="submit">Submit</button>
-            </fieldset>
-          </form>
-        </section>
-        <section>
-          <h2>Call me</h2>
-          <table border="1">
-            <thead>
-              <tr bgcolor="lightblue">
-                <th>Home</th>
-                <th>Mobile</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr bgcolor="aliceblue">
-                <td>+4876545444</td>
-                <td>+4857108777</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-        <section>
-          <a href="#">Back to top</a>
-        </section>
+
+      <section id="contact-section">
+        <h2>Find me</h2>
+        <form action="./message.html">
+          <!-- <fieldset> -->
+          <label for="name">Your name:</label><br />
+          <input id="name" name="name" type="text" />
+          <br />
+          <label for="email">Your email:</label><br />
+          <input id="email" name="email" type="email" />
+          <br />
+          <label for="education">Choose your education level:</label><br />
+          <select name="education" id="education">
+            <option value="High school">High school</option>
+            <option value="bachelor">Bachelor's or equivalent level</option>
+            <option value="master">Master's or equivalent level</option>
+            <option value="phd">Doctoral or equivalent level</option>
+          </select>
+          <br />
+          <label for="date">Date of birth:</label><br />
+          <input id="date" name="date" type="date" />
+          <br />
+          <label for="message">Your message:</label><br />
+          <textarea name="message" id="message" cols="30" rows="4"></textarea
+          ><br />
+          <button type="submit">Submit</button>
+          <!-- </fieldset> -->
+        </form>
       </section>
     </main>
+
     <footer>
+      <a href="#">Back to top</a>
       <p>All Rights Reserved 2023</p>
     </footer>
   </body>
