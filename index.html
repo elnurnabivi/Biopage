@@ -158,13 +158,13 @@
 
       <section id="contact-section">
         <h2>Find me</h2>
-        <form action="./message.html">
+        <form action="./message.html" target="_blank">
           <!-- <fieldset> -->
           <label for="name">Your name:</label><br />
-          <input id="name" name="name" type="text" />
+          <input id="name" name="name" type="text" required />
           <br />
           <label for="email">Your email:</label><br />
-          <input id="email" name="email" type="email" />
+          <input id="email" name="email" type="email" required />
           <br />
           <label for="education">Choose your education level:</label><br />
           <select name="education" id="education">
@@ -180,7 +180,7 @@
           <label for="message">Your message:</label><br />
           <textarea name="message" id="message" cols="30" rows="4"></textarea
           ><br />
-          <button type="submit">Submit</button>
+          <button type="submit" class="submit-btn">Submit</button>
           <!-- </fieldset> -->
         </form>
       </section>

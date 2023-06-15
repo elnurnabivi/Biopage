@@ -29,11 +29,9 @@ section > h2 {
   padding-bottom: 10px;
 }
 
-.main-header__name {
-  font-weight: 600;
-  font-size: 20px;
-  display: inline-block;
-  vertical-align: middle;
+.main-header {
+  border-bottom: 3px solid #101d6b;
+  margin-bottom: 30px;
 }
 
 .main-header__photo {
@@ -43,9 +41,11 @@ section > h2 {
   vertical-align: middle;
 }
 
-.main-header {
-  border-bottom: 3px solid #101d6b;
-  margin-bottom: 30px;
+.main-header__name {
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .main-nav {
@@ -63,11 +63,39 @@ section > h2 {
   font-size: 16px;
 }
 
+.main-nav__links {
+  list-style: none;
+}
+
 .main-nav__link a {
   text-decoration: none;
   color: #000000;
 }
 
-.main-nav__links {
-  list-style: none;
+input {
+  /* border: none; */
+  outline: none;
+}
+
+/* input:invalid {
+  border: 2px solid red;
+} */
+
+input[type="text"]:valid,
+input[type="email"]:valid {
+  border: 2px solid greenyellow;
+}
+
+input:focus {
+  background-color: #9ba6e4;
+}
+
+.submit-btn {
+  background-color: #101d6b;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: black;
+  color: white;
 }
