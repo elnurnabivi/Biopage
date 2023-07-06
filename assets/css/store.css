@@ -1,0 +1,105 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: 1.25;
+  margin-top: 135px;
+}
+section {
+  scroll-margin-top: 150px;
+  padding-top: 20px;
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.store-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn-primary {
+  background-color: #101d6b;
+  border-color: #101d6b;
+}
+
+.btn-primary:hover {
+  transform: scale(1.1);
+  background-color: #101d6b;
+  border-color: #101d6b;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.discount-tag {
+  position: absolute;
+  top: 15px;
+  right: -35px;
+  background: red;
+  color: white;
+  padding: 5px 35px 5px 35px;
+  transform: rotateZ(45deg);
+}
+
+.newsletter {
+  padding: 100px 0 60px 0;
+  background: #f2f2f2;
+}
+
+.newsletter .content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.newsletter .content h2 {
+  color: #101d6b;
+  margin-bottom: 40px;
+}
+.newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius: 0;
+}
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #101d6b;
+}
+.newsletter .content .btn {
+  min-height: 50px;
+  border-radius: 0;
+  background: #101d6b;
+  color: #fff;
+  font-weight: 500;
+}
+
+.svg-gift {
+  position: absolute;
+  top: -24%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #101d6b;
+}
+
+.see-more {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 3px 0;
+}
+
+.store-all-items {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 30px;
+  /* grid-auto-columns: minmax(300px, auto); */
+}
