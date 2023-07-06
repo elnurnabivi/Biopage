@@ -13,6 +13,12 @@ section {
 
 .store {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.store-items {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
@@ -81,4 +87,19 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   fill: #101d6b;
+}
+
+.see-more {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 3px 0;
+}
+
+.store-all-items {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 30px;
+  /* grid-auto-columns: minmax(300px, auto); */
 }
